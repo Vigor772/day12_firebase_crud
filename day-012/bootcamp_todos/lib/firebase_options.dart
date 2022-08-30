@@ -60,10 +60,10 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDs5ww_mCkh7TPaYp1bUxx20ZEXw2QpPyI',
-    appId: '1:455855695322:android:35c8689b4a5dd7da13cce3',
+    apiKey: 'AIzaSyBHk__TJ54t8lNnc7qGSemGagH9t487YVc',
+    appId: '1:892696233389:android:e0b85a38e7d8b8623e4d24',
     messagingSenderId: '455855695322',
-    projectId: 'dict-firebase-todo',
-    storageBucket: 'dict-firebase-todo.appspot.com',
+    projectId: 'day11-bootcamp',
+    storageBucket: 'day11-bootcamp.appspot.com',
   );
 }

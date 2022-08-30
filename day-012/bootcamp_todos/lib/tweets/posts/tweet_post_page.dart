@@ -24,7 +24,7 @@ class TweetPage extends StatefulWidget {
 }
 
 class _TweetPageState extends State<TweetPage> {
-  final postsCollection = FirebaseFirestore.instance.collection('posts');
+  final postsCollection = FirebaseFirestore.instance.collection('tweets');
 
   final _title = TextEditingController();
   final _description = TextEditingController();

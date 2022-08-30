@@ -24,7 +24,7 @@ class SocialPostPage extends StatefulWidget {
 }
 
 class _SocialPostPageState extends State<SocialPostPage> {
-  final postsCollection = FirebaseFirestore.instance.collection('posts');
+  final postsCollection = FirebaseFirestore.instance.collection('tweets');
 
   final _title = TextEditingController();
   final _description = TextEditingController();
